@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     background-color: rgb(255, 217, 235);
     min-height: 100vh;
+    width: 100%;
 }
 
 header{
