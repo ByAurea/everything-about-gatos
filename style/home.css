@@ -16,3 +16,18 @@ img{
     width: 1000px;
     height: auto;
 }
+
+.texto-porque{
+    padding: 20px;
+    background-color: rgb(230, 167, 177);
+    color: rgb(13, 28, 41);
+}
+
+.botaoVer{
+    background-color: pink;
+    border-color: pink;
+}
+.botaoVer:hover{
+    background-color: rgb(197, 131, 142);
+    border-color: pink;
+}

@@ -6,6 +6,13 @@ main {
     padding: 2rem;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 img {
     width: 500px;
     height: auto;
