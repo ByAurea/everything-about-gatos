@@ -13,3 +13,22 @@ main {
     font-weight: 700;
     font-style: normal;
 }
+
+.btn {
+    background-color: #d494ad;
+    border-color: #d494ad;
+}
+
+.btn:hover {
+    background-color: #ad426b;
+    border-color: #ad426b;
+}
+
+@media (max-width: 1047px) {
+    #gatos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
