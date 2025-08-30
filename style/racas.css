@@ -1,0 +1,15 @@
+body {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.botaoSaibaMais{
+    background-color: #d494ad;
+    border-color: #d494ad;
+}
+
+.botaoSaibaMais:hover{
+    background-color: #ad426b;
+    border-color: #ad426b;
+}

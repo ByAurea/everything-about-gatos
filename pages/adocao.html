@@ -1,13 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../style/style.css" />
+        <link rel="stylesheet" href="../style/adocao.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="adocao.html">Adote</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="racas.html">Raças</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="pb-5 text-center btn-danger">
+                <h2 class="h2">Gatos para Adoção</h2>
+                <p>
+                    Encontre seu novo amigo peludo. Adote um gato e mude uma
+                    vida.
+                </p>
+            </div>
+            <section id="gatos" class="d-flex flex-wrap gap-4">
+                <div class="card" style="width: 25rem">
+                    <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5yZs60uZpaGSkg6jUTbQjw_C5BHA5ZZxlBptoCk1Fz6ciTZz3fcnKTxq3hcwc9K_A5oVUWmNmzW34sWoLTORQT3lB-9Nb_ofRVF8bdePuu_mrCeus0uNvLDiZYNfzOzj0eqPP2GCyyX1SLz74ncjmQFUWnuI7uBIQ2ITZ0pN4GciLFayw5O8eHLvYO5CWxQ7Im5lOBkqdHMrYzJlqRAojk3RlifsFYgd4ff7XtgUvINIh0ImnKLTHBoQ_CFpQQJFCEp8k_B0dG44"
+                        class="card-img-top"
+                        alt="gato"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Gatinho</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card’s content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Adotar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem">
+                    <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDls9QnWtPuilSsGpFJ_iaEit6tWSGd3aPBkEnlk79OimJqrl417TLDW1OMBfxDk6JDqaW1murEmxTRHxDcNBaicLFnnSzmyPxxBvwNIiqylpgx2jKDG8Bmj-mAeXo-6AV4SHIvxfHFaRHyohCa6QNEsCLKuTveQdMsWVeVhm47PKtPI8igIyhRczt6MQzHPQAiJVOSBqe9Gb88U-aWyySkBqyUrze3lRGrJQ4xsNqWadcFkXTPIU7tUFcYSNZUarnqFDGA564e1uY"
+                        class="card-img-top"
+                        alt="gato"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Gatinho</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card’s content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Adotar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem">
+                    <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhj4tL-YXQdqo3TqZk5RwMbJPchFesr-OvNrhVvsGjKWC5hYeWKpcLIyUylE-XEgRc-hOhcRA26OFym_jXRxG1SEWhfm8fno7QHXzTRzaoCbhE5xRFm9ieHuo6H6k034jKBd5UfHy0PK99aQT2yXTM0BqcSWiXADEhkGV0__xmWBVzMBB1pTu4pVma-kNCD_9ngOf9uDFAMRhQYcSXgE63tP5Mhbe9vXXIlC6KMOnHZ2iqcqMaNDa0U8gG_NxLMas4_1HehcawtqI"
+                        class="card-img-top"
+                        alt="gato"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Gatinho</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card’s content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Adotar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem">
+                    <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCK1mg1wGl_khpoSlQD5Wdc0NFfidk8kAVwDkS_rSJvWBO5fYbrBx-yv8RU2ifR1TwNmYQBrvDjq2dhVFd9NNYwEbXzzefOC3ZMzOggq2auv711ebsDz_ggKf6gRf5eupNc1qfEWwTxiIQAoypUOpnKYTESIvVFvqkf8feYjYX99I8c87559fTbs5pAXotpZiWL-V7gveajHwJo62iish9hhOEI8BOCF6WaHOYyB2C5GkmVUkaPPJg__hivsOGGEwyiISdH7ZkJqNo"
+                        class="card-img-top"
+                        alt="gato"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Gatinho</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card’s content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Adotar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem">
+                    <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSR7EAGZytp2J-IaIdHm6j925v-2X9yr0Diua6I52PjZDOQM4G3zF6mvW4kS8CDkLfcLBHsRv7W72-71KYnqVbPspTQOUuXN6EX9_H_S4hq7tJcvTTkFeDqb9bLnKvhmkb33xy477DnnSPyNQys3voGfwO8WFc7AM0U7b5geG4G_bwY60bPxIezWcXPPSSDWn4OQnvjMW0kt7GghdBbned_pHj_Tjq6exXrGyKZjI_pF4ZN6uyp2PdzmtJcUCVeVC8I2Uy3h3W-P8"
+                        alt="gato"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Gatinho</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card’s content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Adotar</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; 2025 Everything About Gatos Todos os direitos reservados.
+            </p>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
